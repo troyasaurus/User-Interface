@@ -73,23 +73,31 @@ body{
 	height: auto;
 }
 
+header{
+	margin: 40px;
+	padding: 10px;
+}
 
 
 
 nav a{
 	color: gray;
 	display: inline-block;
-	margin: 50px;
+	margin: 20px;
 }
 
 .logo{
 	float: right;
 }
 
+.box1{
+	display: inline-block;
+	width: 45%;
+}
+
 .circle{
-	margin-bottom: 100PX;
-	margin-right: 100px;
-	float: right; 
+	display: inline-block;
+	width: 35%
 }
 .top-section{
 	border: 1px solid black;
@@ -111,8 +119,9 @@ h1{
 	border: 2px solid black;
 	width: 150px;
 	text-align: center;
-	margin-left: 200px;
-	margin-top: 20px;
+	margin-left: 20px;;
+	
+	padding: 1px;
 }
 
 .info{
@@ -136,11 +145,16 @@ h1{
 
 .contact{
 	margin: 30px;
-	width: 250px; 
+	width: 140px; 
 	
 
 }
+p{
+	margin: 10px 0px 10px;
+	
+}
 footer{
 	text-align: center;
+
 	
 }
